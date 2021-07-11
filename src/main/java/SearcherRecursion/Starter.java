@@ -1,4 +1,4 @@
-package Searcher;
+package SearcherRecursion;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -18,6 +18,7 @@ public class Starter {
 		int depth = Integer.parseInt(props.getProperty("depth"));
 		boolean uniqueness = Boolean.parseBoolean(props.getProperty("uniqueness"));
 
+		
 		// Calling the method
 		Search rec = new Search();
 		rec.getUrls(url, linksLimit, depth, uniqueness);

@@ -1,4 +1,4 @@
-package Searcher;
+package SearcherRecursion;
 
 import java.io.File;
 import java.io.IOException;
